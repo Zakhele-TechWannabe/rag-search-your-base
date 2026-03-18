@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=69,<71"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rag-search-your-base"
+version = "0.1.0"
+description = "A Retrieval-Augmented Generation (RAG) system that can answer questions over a provided knowledge base."
+readme = "README.md"
+requires-python = "=3.12"
+license = { text = "MIT" }
+authors = [
+  { name = "Zakhele Gamede" }
+]
+dependencies = []
+
+[project.optional-dependencies]
+dev = []
+
+[project.scripts]
+rag-search-your-base = "rag_search_your_base.__main__:main"
+
+[tool.setuptools]
+package-dir = { "" = "src" }
+
+[tool.setuptools.packages.find]
+where = ["src"]
