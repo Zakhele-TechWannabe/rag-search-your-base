@@ -1,0 +1,263 @@
+{
+  "request_record": {
+    "timestamp": "20260319_211342",
+    "question": "What does Paul Graham say great work depends on besides effort and luck?",
+    "duration_ms": 34269.28,
+    "output": {
+      "answer": "Ability and interest.",
+      "citations": [
+        "(How to Do Great Work)[https://paulgraham.com/greatwork.html]"
+      ],
+      "confidence_score": 95
+    },
+    "internal": {
+      "answer": "Ability and interest.",
+      "reasoning": "The text lists the factors as ability, interest, effort, and luck, then says luck can be ignored and effort assumed, so the problem boils down to ability and interest.",
+      "confidence_score": 95,
+      "needs_retry": false,
+      "used_chunk_ids": [
+        "https://paulgraham.com/greatwork.html"
+      ],
+      "citations": [
+        "(How to Do Great Work)[https://paulgraham.com/greatwork.html]"
+      ],
+      "reflection": {
+        "confidence": "high",
+        "needs_retry": false,
+        "reason": "The excerpt explicitly lists the factors as ability, interest, effort, and luck, then states that ignoring luck and assuming effort leaves ability and interest as the key factors for doing great work."
+      },
+      "retrieved_matches": [
+        {
+          "chunk_id": "greatwork_073",
+          "text": "you're already further along than you might realize, because the\n\nset of people willing to want to is small.\n\nThe factors in doing great work are factors in the literal,\n\nmathematical sense, and they are: ability, interest, effort, and\n\nluck. Luck by definition you can't do anything about, so we can\n\nignore that. And we can assume effort, if you do in fact want to\n\ndo great work. So the problem boils down to ability and interest.\n\nCan you find a kind of work where your ability and interest will\n\ncombine to yield an explosion of new ideas?\n\nHere there are grounds for optimism. There are so many different\n\nways to do great work, and even more that are still undiscovered.\n\nOut of all those different types of work, the one you're most suited\n\nfor is probably a pretty close match. Probably a comically close\n\nmatch. It's just a question of finding it, and how far into it your\n\nability and interest can take you. And you can only answer that by\n\ntrying.",
+          "doc_id": "greatwork",
+          "chunk_index": 73,
+          "title": "How to Do Great Work",
+          "url": "https://paulgraham.com/greatwork.html",
+          "distance": 0.8000247478485107
+        },
+        {
+          "chunk_id": "greatwork_005",
+          "text": "about things that everyone else took for granted.\n\n[\n\n2\n\n]\n\nIf the answers seem strange, so much the better. Great work often\n\nhas a tincture of strangeness. You see this from painting to math.\n\nIt would be affected to try to manufacture it, but if it appears,\n\nembrace it.\n\nBoldly chase outlier ideas, even if other people aren't interested\n\nin them \u2014 in fact, especially if they aren't. If you're excited\n\nabout some possibility that everyone else ignores, and you have\n\nenough expertise to say precisely what they're all overlooking,\n\nthat's as good a bet as you'll find.\n\n[\n\n3\n\n]\n\nFour steps: choose a field, learn enough to get to the frontier,\n\nnotice gaps, explore promising ones. This is how practically everyone\n\nwho's done great work has done it, from painters to physicists.\n\nSteps two and four will require hard work. It may not be possible\n\nto prove that you have to work hard to do great things, but the\n\nempirical evidence is on the scale of the evidence for mortality.",
+          "doc_id": "greatwork",
+          "chunk_index": 5,
+          "title": "How to Do Great Work",
+          "url": "https://paulgraham.com/greatwork.html",
+          "distance": 0.8971921801567078
+        },
+        {
+          "chunk_id": "greatwork_013",
+          "text": "but you can't discover natural selection that way.\n\nI think for most people who want to do great work, the right strategy\n\nis not to plan too much. At each stage do whatever seems most\n\ninteresting and gives you the best options for the future. I call\n\nthis approach \"staying upwind.\" This is how most people who've done\n\ngreat work seem to have done it.\n\nEven when you've found something exciting to work on, working on\n\nit is not always straightforward. There will be times when some new\n\nidea makes you leap out of bed in the morning and get straight to\n\nwork. But there will also be plenty of times when things aren't\n\nlike that.\n\nYou don't just put out your sail and get blown forward by inspiration.\n\nThere are headwinds and currents and hidden shoals. So there's a\n\ntechnique to working, just as there is to sailing.\n\nFor example, while you must work hard, it's possible to work too\n\nhard, and if you do that you'll find you get diminishing returns:",
+          "doc_id": "greatwork",
+          "chunk_index": 13,
+          "title": "How to Do Great Work",
+          "url": "https://paulgraham.com/greatwork.html",
+          "distance": 0.9207983016967773
+        },
+        {
+          "chunk_id": "greatwork_012",
+          "text": "against all of them. If you're interested, you're not astray.\n\nFollowing your interests may sound like a rather passive strategy,\n\nbut in practice it usually means following them past all sorts of\n\nobstacles. You usually have to risk rejection and failure. So it\n\ndoes take a good deal of boldness.\n\nBut while you need boldness, you don't usually need much planning.\n\nIn most cases the recipe for doing great work is simply: work hard\n\non excitingly ambitious projects, and something good will come of\n\nit. Instead of making a plan and then executing it, you just try\n\nto preserve certain invariants.\n\nThe trouble with planning is that it only works for achievements\n\nyou can describe in advance. You can win a gold medal or get rich\n\nby deciding to as a child and then tenaciously pursuing that goal,\n\nbut you can't discover natural selection that way.\n\nI think for most people who want to do great work, the right strategy\n\nis not to plan too much. At each stage do whatever seems most",
+          "doc_id": "greatwork",
+          "chunk_index": 12,
+          "title": "How to Do Great Work",
+          "url": "https://paulgraham.com/greatwork.html",
+          "distance": 0.9252755045890808
+        },
+        {
+          "chunk_id": "greatwork_018",
+          "text": "as you get older.\n\n[\n\n9\n\n]\n\nGreat work usually entails spending what would seem to most people\n\nan unreasonable amount of time on a problem. You can't think of\n\nthis time as a cost, or it will seem too high. You have to find the\n\nwork sufficiently engaging as it's happening.\n\nThere may be some jobs where you have to work diligently for years\n\nat things you hate before you get to the good part, but this is not\n\nhow great work happens. Great work happens by focusing consistently\n\non something you're genuinely interested in. When you pause to take\n\nstock, you're surprised how far you've come.\n\nThe reason we're surprised is that we underestimate the cumulative\n\neffect of work. Writing a page a day doesn't sound like much, but\n\nif you do it every day you'll write a book a year. That's the key:\n\nconsistency. People who do great things don't get a lot done every\n\nday. They get something done, rather than nothing.\n\nIf you do work that compounds, you'll get exponential growth. Most",
+          "doc_id": "greatwork",
+          "chunk_index": 18,
+          "title": "How to Do Great Work",
+          "url": "https://paulgraham.com/greatwork.html",
+          "distance": 0.9450826644897461
+        },
+        {
+          "chunk_id": "greatwork_078",
+          "text": "great work, but one of the more subtle is that, by casting a wide\n\nnet, they're more likely to find the right thing to work on in the\n\nfirst place.\n\n[\n\n6\n\n]\n\nIt can also be dangerous to make things for an audience you\n\nfeel is less sophisticated than you, if that causes you to talk\n\ndown to them. You can make a lot of money doing that, if you do it\n\nin a sufficiently cynical way, but it's not the route to great work.\n\nNot that anyone using this m.o. would care.\n\n[\n\n7\n\n]\n\nThis idea I learned from Hardy's\n\nA Mathematician's Apology\n\n,\n\nwhich I recommend to anyone ambitious to do great work, in any\n\nfield.\n\n[\n\n8\n\n]\n\nJust as we overestimate what we can do in a day and underestimate\n\nwhat we can do over several years, we overestimate the damage done\n\nby procrastinating for a day and underestimate the damage done by\n\nprocrastinating for several years.\n\n[\n\n9\n\n]\n\nYou can't usually get paid for doing exactly what you want,\n\nespecially early on. There are two options: get paid for doing work",
+          "doc_id": "greatwork",
+          "chunk_index": 78,
+          "title": "How to Do Great Work",
+          "url": "https://paulgraham.com/greatwork.html",
+          "distance": 0.9485026597976685
+        },
+        {
+          "chunk_id": "greatwork_075",
+          "text": "you're interested.\n\nDon't worry about being presumptuous. You don't have to tell anyone.\n\nAnd if it's too hard and you fail, so what? Lots of people have\n\nworse problems than that. In fact you'll be lucky if it's the worst\n\nproblem you have.\n\nYes, you'll have to work hard. But again, lots of people have to\n\nwork hard. And if you're working on something you find very\n\ninteresting, which you necessarily will if you're on the right path,\n\nthe work will probably feel less burdensome than a lot of your\n\npeers'.\n\nThe discoveries are out there, waiting to be made. Why not by you?\n\nNotes\n\n[\n\n1\n\n]\n\nI don't think you could give a precise definition of what\n\ncounts as great work. Doing great work means doing something important\n\nso well that you expand people's ideas of what's possible. But\n\nthere's no threshold for importance. It's a matter of degree, and\n\noften hard to judge at the time anyway. So I'd rather people focused\n\non developing their interests rather than worrying about whether",
+          "doc_id": "greatwork",
+          "chunk_index": 75,
+          "title": "How to Do Great Work",
+          "url": "https://paulgraham.com/greatwork.html",
+          "distance": 0.9545997381210327
+        },
+        {
+          "chunk_id": "greatwork_072",
+          "text": "Notice how often that word has come up. If you asked an oracle the\n\nsecret to doing great work and the oracle replied with a single\n\nword, my bet would be on \"curiosity.\"\n\nThat doesn't translate directly to advice. It's not enough just to\n\nbe curious, and you can't command curiosity anyway. But you can\n\nnurture it and let it drive you.\n\nCuriosity is the key to all four steps in doing great work: it will\n\nchoose the field for you, get you to the frontier, cause you to\n\nnotice the gaps in it, and drive you to explore them. The whole\n\nprocess is a kind of dance with curiosity.\n\nBelieve it or not, I tried to make this essay as short as I could.\n\nBut its length at least means it acts as a filter. If you made it\n\nthis far, you must be interested in doing great work. And if so\n\nyou're already further along than you might realize, because the\n\nset of people willing to want to is small.\n\nThe factors in doing great work are factors in the literal,",
+          "doc_id": "greatwork",
+          "chunk_index": 72,
+          "title": "How to Do Great Work",
+          "url": "https://paulgraham.com/greatwork.html",
+          "distance": 0.9651065468788147
+        }
+      ],
+      "ranked_matches": [
+        {
+          "chunk_id": "greatwork_073",
+          "text": "you're already further along than you might realize, because the\n\nset of people willing to want to is small.\n\nThe factors in doing great work are factors in the literal,\n\nmathematical sense, and they are: ability, interest, effort, and\n\nluck. Luck by definition you can't do anything about, so we can\n\nignore that. And we can assume effort, if you do in fact want to\n\ndo great work. So the problem boils down to ability and interest.\n\nCan you find a kind of work where your ability and interest will\n\ncombine to yield an explosion of new ideas?\n\nHere there are grounds for optimism. There are so many different\n\nways to do great work, and even more that are still undiscovered.\n\nOut of all those different types of work, the one you're most suited\n\nfor is probably a pretty close match. Probably a comically close\n\nmatch. It's just a question of finding it, and how far into it your\n\nability and interest can take you. And you can only answer that by\n\ntrying.",
+          "doc_id": "greatwork",
+          "chunk_index": 73,
+          "title": "How to Do Great Work",
+          "url": "https://paulgraham.com/greatwork.html",
+          "distance": 0.8000247478485107,
+          "rank_score": 10.0
+        },
+        {
+          "chunk_id": "greatwork_072",
+          "text": "Notice how often that word has come up. If you asked an oracle the\n\nsecret to doing great work and the oracle replied with a single\n\nword, my bet would be on \"curiosity.\"\n\nThat doesn't translate directly to advice. It's not enough just to\n\nbe curious, and you can't command curiosity anyway. But you can\n\nnurture it and let it drive you.\n\nCuriosity is the key to all four steps in doing great work: it will\n\nchoose the field for you, get you to the frontier, cause you to\n\nnotice the gaps in it, and drive you to explore them. The whole\n\nprocess is a kind of dance with curiosity.\n\nBelieve it or not, I tried to make this essay as short as I could.\n\nBut its length at least means it acts as a filter. If you made it\n\nthis far, you must be interested in doing great work. And if so\n\nyou're already further along than you might realize, because the\n\nset of people willing to want to is small.\n\nThe factors in doing great work are factors in the literal,",
+          "doc_id": "greatwork",
+          "chunk_index": 72,
+          "title": "How to Do Great Work",
+          "url": "https://paulgraham.com/greatwork.html",
+          "distance": 0.9651065468788147,
+          "rank_score": 9.0
+        },
+        {
+          "chunk_id": "greatwork_075",
+          "text": "you're interested.\n\nDon't worry about being presumptuous. You don't have to tell anyone.\n\nAnd if it's too hard and you fail, so what? Lots of people have\n\nworse problems than that. In fact you'll be lucky if it's the worst\n\nproblem you have.\n\nYes, you'll have to work hard. But again, lots of people have to\n\nwork hard. And if you're working on something you find very\n\ninteresting, which you necessarily will if you're on the right path,\n\nthe work will probably feel less burdensome than a lot of your\n\npeers'.\n\nThe discoveries are out there, waiting to be made. Why not by you?\n\nNotes\n\n[\n\n1\n\n]\n\nI don't think you could give a precise definition of what\n\ncounts as great work. Doing great work means doing something important\n\nso well that you expand people's ideas of what's possible. But\n\nthere's no threshold for importance. It's a matter of degree, and\n\noften hard to judge at the time anyway. So I'd rather people focused\n\non developing their interests rather than worrying about whether",
+          "doc_id": "greatwork",
+          "chunk_index": 75,
+          "title": "How to Do Great Work",
+          "url": "https://paulgraham.com/greatwork.html",
+          "distance": 0.9545997381210327,
+          "rank_score": 8.0
+        },
+        {
+          "chunk_id": "greatwork_018",
+          "text": "as you get older.\n\n[\n\n9\n\n]\n\nGreat work usually entails spending what would seem to most people\n\nan unreasonable amount of time on a problem. You can't think of\n\nthis time as a cost, or it will seem too high. You have to find the\n\nwork sufficiently engaging as it's happening.\n\nThere may be some jobs where you have to work diligently for years\n\nat things you hate before you get to the good part, but this is not\n\nhow great work happens. Great work happens by focusing consistently\n\non something you're genuinely interested in. When you pause to take\n\nstock, you're surprised how far you've come.\n\nThe reason we're surprised is that we underestimate the cumulative\n\neffect of work. Writing a page a day doesn't sound like much, but\n\nif you do it every day you'll write a book a year. That's the key:\n\nconsistency. People who do great things don't get a lot done every\n\nday. They get something done, rather than nothing.\n\nIf you do work that compounds, you'll get exponential growth. Most",
+          "doc_id": "greatwork",
+          "chunk_index": 18,
+          "title": "How to Do Great Work",
+          "url": "https://paulgraham.com/greatwork.html",
+          "distance": 0.9450826644897461,
+          "rank_score": 7.0
+        },
+        {
+          "chunk_id": "greatwork_012",
+          "text": "against all of them. If you're interested, you're not astray.\n\nFollowing your interests may sound like a rather passive strategy,\n\nbut in practice it usually means following them past all sorts of\n\nobstacles. You usually have to risk rejection and failure. So it\n\ndoes take a good deal of boldness.\n\nBut while you need boldness, you don't usually need much planning.\n\nIn most cases the recipe for doing great work is simply: work hard\n\non excitingly ambitious projects, and something good will come of\n\nit. Instead of making a plan and then executing it, you just try\n\nto preserve certain invariants.\n\nThe trouble with planning is that it only works for achievements\n\nyou can describe in advance. You can win a gold medal or get rich\n\nby deciding to as a child and then tenaciously pursuing that goal,\n\nbut you can't discover natural selection that way.\n\nI think for most people who want to do great work, the right strategy\n\nis not to plan too much. At each stage do whatever seems most",
+          "doc_id": "greatwork",
+          "chunk_index": 12,
+          "title": "How to Do Great Work",
+          "url": "https://paulgraham.com/greatwork.html",
+          "distance": 0.9252755045890808,
+          "rank_score": 6.0
+        },
+        {
+          "chunk_id": "greatwork_005",
+          "text": "about things that everyone else took for granted.\n\n[\n\n2\n\n]\n\nIf the answers seem strange, so much the better. Great work often\n\nhas a tincture of strangeness. You see this from painting to math.\n\nIt would be affected to try to manufacture it, but if it appears,\n\nembrace it.\n\nBoldly chase outlier ideas, even if other people aren't interested\n\nin them \u2014 in fact, especially if they aren't. If you're excited\n\nabout some possibility that everyone else ignores, and you have\n\nenough expertise to say precisely what they're all overlooking,\n\nthat's as good a bet as you'll find.\n\n[\n\n3\n\n]\n\nFour steps: choose a field, learn enough to get to the frontier,\n\nnotice gaps, explore promising ones. This is how practically everyone\n\nwho's done great work has done it, from painters to physicists.\n\nSteps two and four will require hard work. It may not be possible\n\nto prove that you have to work hard to do great things, but the\n\nempirical evidence is on the scale of the evidence for mortality.",
+          "doc_id": "greatwork",
+          "chunk_index": 5,
+          "title": "How to Do Great Work",
+          "url": "https://paulgraham.com/greatwork.html",
+          "distance": 0.8971921801567078,
+          "rank_score": 5.0
+        },
+        {
+          "chunk_id": "greatwork_013",
+          "text": "but you can't discover natural selection that way.\n\nI think for most people who want to do great work, the right strategy\n\nis not to plan too much. At each stage do whatever seems most\n\ninteresting and gives you the best options for the future. I call\n\nthis approach \"staying upwind.\" This is how most people who've done\n\ngreat work seem to have done it.\n\nEven when you've found something exciting to work on, working on\n\nit is not always straightforward. There will be times when some new\n\nidea makes you leap out of bed in the morning and get straight to\n\nwork. But there will also be plenty of times when things aren't\n\nlike that.\n\nYou don't just put out your sail and get blown forward by inspiration.\n\nThere are headwinds and currents and hidden shoals. So there's a\n\ntechnique to working, just as there is to sailing.\n\nFor example, while you must work hard, it's possible to work too\n\nhard, and if you do that you'll find you get diminishing returns:",
+          "doc_id": "greatwork",
+          "chunk_index": 13,
+          "title": "How to Do Great Work",
+          "url": "https://paulgraham.com/greatwork.html",
+          "distance": 0.9207983016967773,
+          "rank_score": 4.0
+        },
+        {
+          "chunk_id": "greatwork_078",
+          "text": "great work, but one of the more subtle is that, by casting a wide\n\nnet, they're more likely to find the right thing to work on in the\n\nfirst place.\n\n[\n\n6\n\n]\n\nIt can also be dangerous to make things for an audience you\n\nfeel is less sophisticated than you, if that causes you to talk\n\ndown to them. You can make a lot of money doing that, if you do it\n\nin a sufficiently cynical way, but it's not the route to great work.\n\nNot that anyone using this m.o. would care.\n\n[\n\n7\n\n]\n\nThis idea I learned from Hardy's\n\nA Mathematician's Apology\n\n,\n\nwhich I recommend to anyone ambitious to do great work, in any\n\nfield.\n\n[\n\n8\n\n]\n\nJust as we overestimate what we can do in a day and underestimate\n\nwhat we can do over several years, we overestimate the damage done\n\nby procrastinating for a day and underestimate the damage done by\n\nprocrastinating for several years.\n\n[\n\n9\n\n]\n\nYou can't usually get paid for doing exactly what you want,\n\nespecially early on. There are two options: get paid for doing work",
+          "doc_id": "greatwork",
+          "chunk_index": 78,
+          "title": "How to Do Great Work",
+          "url": "https://paulgraham.com/greatwork.html",
+          "distance": 0.9485026597976685,
+          "rank_score": 3.0
+        }
+      ],
+      "matches": [
+        {
+          "chunk_id": "greatwork_073",
+          "text": "you're already further along than you might realize, because the\n\nset of people willing to want to is small.\n\nThe factors in doing great work are factors in the literal,\n\nmathematical sense, and they are: ability, interest, effort, and\n\nluck. Luck by definition you can't do anything about, so we can\n\nignore that. And we can assume effort, if you do in fact want to\n\ndo great work. So the problem boils down to ability and interest.\n\nCan you find a kind of work where your ability and interest will\n\ncombine to yield an explosion of new ideas?\n\nHere there are grounds for optimism. There are so many different\n\nways to do great work, and even more that are still undiscovered.\n\nOut of all those different types of work, the one you're most suited\n\nfor is probably a pretty close match. Probably a comically close\n\nmatch. It's just a question of finding it, and how far into it your\n\nability and interest can take you. And you can only answer that by\n\ntrying.",
+          "doc_id": "greatwork",
+          "chunk_index": 73,
+          "title": "How to Do Great Work",
+          "url": "https://paulgraham.com/greatwork.html",
+          "distance": 0.8000247478485107,
+          "rank_score": 10.0
+        },
+        {
+          "chunk_id": "greatwork_072",
+          "text": "Notice how often that word has come up. If you asked an oracle the\n\nsecret to doing great work and the oracle replied with a single\n\nword, my bet would be on \"curiosity.\"\n\nThat doesn't translate directly to advice. It's not enough just to\n\nbe curious, and you can't command curiosity anyway. But you can\n\nnurture it and let it drive you.\n\nCuriosity is the key to all four steps in doing great work: it will\n\nchoose the field for you, get you to the frontier, cause you to\n\nnotice the gaps in it, and drive you to explore them. The whole\n\nprocess is a kind of dance with curiosity.\n\nBelieve it or not, I tried to make this essay as short as I could.\n\nBut its length at least means it acts as a filter. If you made it\n\nthis far, you must be interested in doing great work. And if so\n\nyou're already further along than you might realize, because the\n\nset of people willing to want to is small.\n\nThe factors in doing great work are factors in the literal,",
+          "doc_id": "greatwork",
+          "chunk_index": 72,
+          "title": "How to Do Great Work",
+          "url": "https://paulgraham.com/greatwork.html",
+          "distance": 0.9651065468788147,
+          "rank_score": 9.0
+        },
+        {
+          "chunk_id": "greatwork_075",
+          "text": "you're interested.\n\nDon't worry about being presumptuous. You don't have to tell anyone.\n\nAnd if it's too hard and you fail, so what? Lots of people have\n\nworse problems than that. In fact you'll be lucky if it's the worst\n\nproblem you have.\n\nYes, you'll have to work hard. But again, lots of people have to\n\nwork hard. And if you're working on something you find very\n\ninteresting, which you necessarily will if you're on the right path,\n\nthe work will probably feel less burdensome than a lot of your\n\npeers'.\n\nThe discoveries are out there, waiting to be made. Why not by you?\n\nNotes\n\n[\n\n1\n\n]\n\nI don't think you could give a precise definition of what\n\ncounts as great work. Doing great work means doing something important\n\nso well that you expand people's ideas of what's possible. But\n\nthere's no threshold for importance. It's a matter of degree, and\n\noften hard to judge at the time anyway. So I'd rather people focused\n\non developing their interests rather than worrying about whether",
+          "doc_id": "greatwork",
+          "chunk_index": 75,
+          "title": "How to Do Great Work",
+          "url": "https://paulgraham.com/greatwork.html",
+          "distance": 0.9545997381210327,
+          "rank_score": 8.0
+        },
+        {
+          "chunk_id": "greatwork_018",
+          "text": "as you get older.\n\n[\n\n9\n\n]\n\nGreat work usually entails spending what would seem to most people\n\nan unreasonable amount of time on a problem. You can't think of\n\nthis time as a cost, or it will seem too high. You have to find the\n\nwork sufficiently engaging as it's happening.\n\nThere may be some jobs where you have to work diligently for years\n\nat things you hate before you get to the good part, but this is not\n\nhow great work happens. Great work happens by focusing consistently\n\non something you're genuinely interested in. When you pause to take\n\nstock, you're surprised how far you've come.\n\nThe reason we're surprised is that we underestimate the cumulative\n\neffect of work. Writing a page a day doesn't sound like much, but\n\nif you do it every day you'll write a book a year. That's the key:\n\nconsistency. People who do great things don't get a lot done every\n\nday. They get something done, rather than nothing.\n\nIf you do work that compounds, you'll get exponential growth. Most",
+          "doc_id": "greatwork",
+          "chunk_index": 18,
+          "title": "How to Do Great Work",
+          "url": "https://paulgraham.com/greatwork.html",
+          "distance": 0.9450826644897461,
+          "rank_score": 7.0
+        }
+      ],
+      "iteration": 1
+    }
+  },
+  "evaluation_result": {
+    "retrieval": {
+      "expected_slugs": [
+        "greatwork"
+      ],
+      "retrieved_slugs": [
+        "greatwork",
+        "greatwork",
+        "greatwork",
+        "greatwork",
+        "greatwork",
+        "greatwork",
+        "greatwork",
+        "greatwork"
+      ],
+      "relevant_retrieved_slugs": [
+        "greatwork"
+      ],
+      "relevant_retrieved_count": 1,
+      "expected_count": 1,
+      "recall_at_k": 1.0
+    },
+    "answer_evaluation": {
+      "expected_answer_summary": "He says the key remaining factors are ability and interest, and that great work comes from finding work where they combine well.",
+      "alignment_score": 5,
+      "alignment_reason": "The generated answer directly provides the key factors mentioned in the expected answer summary (ability and interest)."
+    },
+    "judge": {
+      "retrieval_assessment": "All retrieved sources are 'greatwork', which perfectly matches the single expected source slug.",
+      "answer_assessment": "The generated answer 'Ability and interest.' aligns perfectly with the core information of the expected answer summary.",
+      "overall_note": "This is a strong result, demonstrating excellent retrieval and a precise, accurate generated answer."
+    }
+  }
+}
