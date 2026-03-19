@@ -269,7 +269,7 @@ Citations:
 
 * `(How to Do Great Work)[https://paulgraham.com/greatwork.html]`
 
-Source artifact: [20260319_211342.json](/home/shadow-realm/Documents/technical-interview-workspace/rag-search-your-base/docs/examples/20260319_211342.json)
+Source artifact: [20260319_211342.json](docs/examples/20260319_211342.json)
 
 ### 2. What does Paul Graham say people should do in life?
 
@@ -281,7 +281,7 @@ Citations:
 
 * `(What to Do)[https://paulgraham.com/do.html]`
 
-Source artifact: [20260319_211433.json](/home/shadow-realm/Documents/technical-interview-workspace/rag-search-your-base/docs/examples/20260319_211433.json)
+Source artifact: [20260319_211433.json](docs/examples/20260319_211433.json)
 
 ### 3. Why does Paul Graham say AI will create writes and write-nots?
 
@@ -293,7 +293,7 @@ Citations:
 
 * `(Writes and Write-Nots)[https://paulgraham.com/writes.html]`
 
-Source artifact: [20260319_211544.json](/home/shadow-realm/Documents/technical-interview-workspace/rag-search-your-base/docs/examples/20260319_211544.json)
+Source artifact: [20260319_211544.json](docs/examples/20260319_211544.json)
 
 ## Known Limitations
 

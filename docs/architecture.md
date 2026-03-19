@@ -11,7 +11,7 @@ The system is a small RAG pipeline over the Paul Graham essays. It has four main
 3. question answering
 4. evaluation
 
-The application is exposed through FastAPI in [src/main.py](/home/shadow-realm/Documents/technical-interview-workspace/rag-search-your-base/src/main.py).
+The application is exposed through FastAPI in [src/main.py](../src/main.py).
 
 ## High-Level Flow
 
@@ -67,8 +67,8 @@ The idea is to keep the API response simple while still preserving the internal 
 
 There are two evaluation paths:
 
-* manual evaluation over the full eval set in [docs/eval_set.json](/home/shadow-realm/Documents/technical-interview-workspace/rag-search-your-base/docs/eval_set.json)
-* background evaluation for individual `/ask` requests using [docs/ask_eval_set.json](/home/shadow-realm/Documents/technical-interview-workspace/rag-search-your-base/docs/ask_eval_set.json)
+* manual evaluation over the full eval set in [docs/eval_set.json](eval_set.json)
+* background evaluation for individual `/ask` requests using [docs/ask_eval_set.json](ask_eval_set.json)
 
 The evaluator combines:
 
@@ -81,7 +81,7 @@ The judge is not used as the primary metric. It only adds commentary around retr
 
 ### API Layer
 
-The FastAPI application lives in [src/main.py](/home/shadow-realm/Documents/technical-interview-workspace/rag-search-your-base/src/main.py).
+The FastAPI application lives in [src/main.py](../src/main.py).
 
 Key endpoints:
 
@@ -92,7 +92,7 @@ Key endpoints:
 
 ### Ingestion
 
-The ingestion logic lives in [src/core/ingest.py](/home/shadow-realm/Documents/technical-interview-workspace/rag-search-your-base/src/core/ingest.py).
+The ingestion logic lives in [src/core/ingest.py](../src/core/ingest.py).
 
 Main responsibilities:
 
@@ -106,7 +106,7 @@ The ingestion layer is intentionally simple and uses HTML parsing rather than a 
 
 ### Chunking
 
-The chunking logic lives in [src/core/chunking.py](/home/shadow-realm/Documents/technical-interview-workspace/rag-search-your-base/src/core/chunking.py).
+The chunking logic lives in [src/core/chunking.py](../src/core/chunking.py).
 
 It uses LangChain's `RecursiveCharacterTextSplitter` with:
 
@@ -124,7 +124,7 @@ Each chunk includes metadata such as:
 
 ### Embedding and Vector Store
 
-Embedding and upsert logic live in [src/core/embed.py](/home/shadow-realm/Documents/technical-interview-workspace/rag-search-your-base/src/core/embed.py).
+Embedding and upsert logic live in [src/core/embed.py](../src/core/embed.py).
 
 The system uses:
 
@@ -135,7 +135,7 @@ Chunks are upserted with stable IDs so repeated ingest runs update existing reco
 
 ### Retrieval
 
-Retrieval lives in [src/utils/retriever.py](/home/shadow-realm/Documents/technical-interview-workspace/rag-search-your-base/src/utils/retriever.py).
+Retrieval lives in [src/utils/retriever.py](../src/utils/retriever.py).
 
 The retriever:
 
@@ -147,7 +147,7 @@ This is a dense retrieval setup, not sparse retrieval.
 
 ### Generation
 
-Generation lives in [src/core/generate.py](/home/shadow-realm/Documents/technical-interview-workspace/rag-search-your-base/src/core/generate.py).
+Generation lives in [src/core/generate.py](../src/core/generate.py).
 
 The answer generator coordinates:
 
@@ -156,34 +156,34 @@ The answer generator coordinates:
 * reflection
 * answer generation
 
-Prompts are separated into [src/utils/prompts.py](/home/shadow-realm/Documents/technical-interview-workspace/rag-search-your-base/src/utils/prompts.py), and lightweight output validation lives in [src/utils/validators.py](/home/shadow-realm/Documents/technical-interview-workspace/rag-search-your-base/src/utils/validators.py).
+Prompts are separated into [src/utils/prompts.py](../src/utils/prompts.py), and lightweight output validation lives in [src/utils/validators.py](../src/utils/validators.py).
 
 The LLM is required to return JSON, and the application validates each response before using it.
 
 ### Evaluation
 
-Evaluation lives in [src/core/evaluate.py](/home/shadow-realm/Documents/technical-interview-workspace/rag-search-your-base/src/core/evaluate.py).
+Evaluation lives in [src/core/evaluate.py](../src/core/evaluate.py).
 
 It supports:
 
-* full eval-set runs that write to [results/eval_results.json](/home/shadow-realm/Documents/technical-interview-workspace/rag-search-your-base/results/eval_results.json)
+* full eval-set runs that write to [results/eval_results.json](../results/eval_results.json)
 * request-level background evaluation that updates saved `/ask` request artifacts and daily summaries
 
 ## Data Layout
 
 Main runtime data locations:
 
-* [data/catalog/catalog.json](/home/shadow-realm/Documents/technical-interview-workspace/rag-search-your-base/data/catalog/catalog.json)
-* [data/essays](/home/shadow-realm/Documents/technical-interview-workspace/rag-search-your-base/data/essays)
-* [data/chunks/recursive_chunks.json](/home/shadow-realm/Documents/technical-interview-workspace/rag-search-your-base/data/chunks/recursive_chunks.json)
+* [data/catalog/catalog.json](../data/catalog/catalog.json)
+* [data/essays](../data/essays)
+* [data/chunks/recursive_chunks.json](../data/chunks/recursive_chunks.json)
 * `data/chroma/` for the local Chroma store
-* [results/eval_results.json](/home/shadow-realm/Documents/technical-interview-workspace/rag-search-your-base/results/eval_results.json)
+* [results/eval_results.json](../results/eval_results.json)
 * `results/ask/<day>/requests/` for per-request traces
 * `results/ask/<day>/summary.json` for daily ask summaries
 
 ## Logging
 
-Logging utilities live in [src/utils/logger.py](/home/shadow-realm/Documents/technical-interview-workspace/rag-search-your-base/src/utils/logger.py).
+Logging utilities live in [src/utils/logger.py](../src/utils/logger.py).
 
 The app writes:
 
