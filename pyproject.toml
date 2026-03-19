@@ -5,23 +5,38 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "rag-search-your-base"
 version = "0.1.0"
-description = "A Retrieval-Augmented Generation (RAG) system that can answer questions over a provided knowledge base."
+description = "RAG-Powered Q&A System: A Retrieval-Augmented Generation (RAG) system that can answer questions over a provided knowledge base."
 readme = "README.md"
 requires-python = "=3.12"
 license = { text = "MIT" }
 authors = [
   { name = "Zakhele Gamede" }
 ]
-dependencies = []
+dependencies = [
+  "chromadb==1.5.5",
+  "colorama==0.4.6",
+  "fastapi==0.135.1",
+  "google-genai==1.68.0",
+  "langchain-text-splitters==1.1.1",
+  "openai==2.29.0",
+  "uvicorn==0.42.0",
+]
 
 [project.optional-dependencies]
-dev = []
+dev = [
+  "pytest==9.0.2",
+]
 
 [project.scripts]
-rag-search-your-base = "rag_search_your_base.__main__:main"
+rag-search-your-base = "main:main"
 
 [tool.setuptools]
 package-dir = { "" = "src" }
 
 [tool.setuptools.packages.find]
 where = ["src"]
+
+[tool.pytest.ini_options]
+markers = [
+  "integration: marks tests that use real external dependencies",
+]
