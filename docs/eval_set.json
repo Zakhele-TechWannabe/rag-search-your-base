@@ -1,0 +1,32 @@
+[
+  {
+    "question": "What does Paul Graham say great work depends on besides effort and luck?",
+    "expected_slugs": ["greatwork"],
+    "expected_answer_summary": "He says the key remaining factors are ability and interest, and that great work comes from finding work where they combine well."
+  },
+  {
+    "question": "Why does Paul Graham think writing that sounds good is more likely to be right?",
+    "expected_slugs": ["goodwriting"],
+    "expected_answer_summary": "He argues that improving sentence quality helps refine thinking, so sound and correctness in writing reinforce each other."
+  },
+  {
+    "question": "What does Paul Graham say people should do in life?",
+    "expected_slugs": ["do"],
+    "expected_answer_summary": "He says people should help others, take care of the world, and make good new things."
+  },
+  {
+    "question": "Why does Paul Graham say AI will create writes and write-nots?",
+    "expected_slugs": ["writes"],
+    "expected_answer_summary": "He says AI removes the pressure to learn writing, so fewer people will practice the thinking that writing requires."
+  },
+  {
+    "question": "What made Paul Graham change his mind about having kids?",
+    "expected_slugs": ["kids"],
+    "expected_answer_summary": "He says having kids brought unexpected happiness and made him realize the standard objections were weaker than he had assumed."
+  },
+  {
+    "question": "According to Paul Graham, how do people usually lose time and money?",
+    "expected_slugs": ["selfindulgence"],
+    "expected_answer_summary": "He argues that people lose time and money through vanity, status seeking, and showing off rather than straightforward pleasures."
+  }
+]
