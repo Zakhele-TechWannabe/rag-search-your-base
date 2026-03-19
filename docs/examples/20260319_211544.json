@@ -1,0 +1,267 @@
+{
+  "request_record": {
+    "timestamp": "20260319_211544",
+    "question": "Why does Paul Graham say AI will create writes and write-nots?",
+    "duration_ms": 36977.99,
+    "output": {
+      "answer": "Graham says AI removes nearly all the pressure to learn to write because it can produce writing for you, so most people will stop practicing the skill. That will collapse the middle ground\u2014there will be those who still choose to write (writes) and those who don't (write-nots). He warns this is harmful because \"writing is thinking,\" so losing writing skills means losing a kind of thinking (leading to \"thinks and think-nots\").",
+      "citations": [
+        "(Writes and Write-Nots)[https://paulgraham.com/writes.html]"
+      ],
+      "confidence_score": 95
+    },
+    "internal": {
+      "answer": "Graham says AI removes nearly all the pressure to learn to write because it can produce writing for you, so most people will stop practicing the skill. That will collapse the middle ground\u2014there will be those who still choose to write (writes) and those who don't (write-nots). He warns this is harmful because \"writing is thinking,\" so losing writing skills means losing a kind of thinking (leading to \"thinks and think-nots\").",
+      "reasoning": "The text states AI lets you have writing done for you, eroding the incentive to learn to write and eliminating the middle category of mediocre writers; Graham links writing to clear thinking and quotes the idea that without writing you only think you are thinking.",
+      "confidence_score": 95,
+      "needs_retry": false,
+      "used_chunk_ids": [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      "citations": [
+        "(Writes and Write-Nots)[https://paulgraham.com/writes.html]"
+      ],
+      "reflection": {
+        "confidence": "high",
+        "needs_retry": false,
+        "reason": "The provided excerpts contain Paul Graham\u2019s key points: AI removes the pressure to learn writing by doing it for people, causing the middle group of mediocre writers to disappear and producing two groups\u2014those who can still write and everyone else. He argues this is harmful because \"writing is thinking,\" so a split into \"writes\" and \"write-nots\" becomes a split into thinkers and non-thinkers. These passages directly support the answer."
+      },
+      "retrieved_matches": [
+        {
+          "chunk_id": "writes_003",
+          "text": "or steal words, you had to write them yourself. And as a result\n\nnearly everyone who was expected to write had to learn how.\n\nNot anymore. AI has blown this world open. Almost all pressure to\n\nwrite has dissipated. You can have AI do it for you, both in school\n\nand at work.\n\nThe result will be a world divided into writes and write-nots.\n\nThere will still be some people who can write. Some of us like it.\n\nBut the middle ground between those who are good at writing and\n\nthose who can't write at all will disappear. Instead of good writers,\n\nok writers, and people who can't write, there will just be good\n\nwriters and people who can't write.\n\nIs that so bad? Isn't it common for skills to disappear when\n\ntechnology makes them obsolete? There aren't many blacksmiths left,\n\nand it doesn't seem to be a problem.\n\nYes, it's bad. The reason is something I mentioned earlier: writing\n\nis thinking. In fact there's a kind of thinking that can only be",
+          "doc_id": "writes",
+          "chunk_index": 3,
+          "title": "Writes and Write-Nots",
+          "url": "https://paulgraham.com/writes.html",
+          "distance": 0.7701528668403625
+        },
+        {
+          "chunk_id": "writes_002",
+          "text": "These two powerful opposing forces, the pervasive expectation of\n\nwriting and the irreducible difficulty of doing it, create enormous\n\npressure. This is why eminent professors often turn out to have\n\nresorted to plagiarism. The most striking thing to me about these\n\ncases is the pettiness of the thefts. The stuff they steal is usually\n\nthe most mundane boilerplate \u2014 the sort of thing that anyone who\n\nwas even halfway decent at writing could turn out with no effort\n\nat all. Which means they're not even halfway decent at writing.\n\nTill recently there was no convenient escape valve for the pressure\n\ncreated by these opposing forces. You could pay someone to write\n\nfor you, like JFK, or plagiarize, like MLK, but if you couldn't buy\n\nor steal words, you had to write them yourself. And as a result\n\nnearly everyone who was expected to write had to learn how.\n\nNot anymore. AI has blown this world open. Almost all pressure to",
+          "doc_id": "writes",
+          "chunk_index": 2,
+          "title": "Writes and Write-Nots",
+          "url": "https://paulgraham.com/writes.html",
+          "distance": 0.9274418354034424
+        },
+        {
+          "chunk_id": "writes_001",
+          "text": "October 2024\n\nI'm usually reluctant to make predictions about technology, but I\n\nfeel fairly confident about this one: in a couple decades there\n\nwon't be many people who can write.\n\nOne of the strangest things you learn if you're a writer is how\n\nmany people have trouble writing. Doctors know how many people have\n\na mole they're worried about; people who are good at setting up\n\ncomputers know how many people aren't; writers know how many people\n\nneed help writing.\n\nThe reason so many people have trouble writing is that it's\n\nfundamentally difficult. To write well you have to think clearly,\n\nand thinking clearly is hard.\n\nAnd yet writing pervades many jobs, and the more prestigious the\n\njob, the more writing it tends to require.\n\nThese two powerful opposing forces, the pervasive expectation of\n\nwriting and the irreducible difficulty of doing it, create enormous\n\npressure. This is why eminent professors often turn out to have",
+          "doc_id": "writes",
+          "chunk_index": 1,
+          "title": "Writes and Write-Nots",
+          "url": "https://paulgraham.com/writes.html",
+          "distance": 0.9838635921478271
+        },
+        {
+          "chunk_id": "writes_004",
+          "text": "and it doesn't seem to be a problem.\n\nYes, it's bad. The reason is something I mentioned earlier: writing\n\nis thinking. In fact there's a kind of thinking that can only be\n\ndone by writing. You can't make this point better than Leslie Lamport\n\ndid:\n\nIf you're thinking without writing, you only think you're thinking.\n\nSo a world divided into writes and write-nots is more dangerous\n\nthan it sounds. It will be a world of thinks and think-nots. I know\n\nwhich half I want to be in, and I bet you do too.\n\nThis situation is not unprecedented. In preindustrial times most\n\npeople's jobs made them strong. Now if you want to be strong, you\n\nwork out. So there are still strong people, but only those who\n\nchoose to be.\n\nIt will be the same with writing. There will still be smart people,\n\nbut only those who choose to be.\n\nThanks\n\nto Jessica Livingston, Ben Miller,\n\nand Robert Morris for reading drafts of this.",
+          "doc_id": "writes",
+          "chunk_index": 4,
+          "title": "Writes and Write-Nots",
+          "url": "https://paulgraham.com/writes.html",
+          "distance": 1.0051175355911255
+        },
+        {
+          "chunk_id": "goodwriting_001",
+          "text": "May 2025\n\nThere are two senses in which writing can be good: it can\n\nsound good, and the ideas can be right. It can have nice,\n\nflowing sentences, and it can draw correct conclusions\n\nabout important things. It might seem as if these two\n\nkinds of good would be unrelated, like the speed of a car\n\nand the color it's painted. And yet I don't think they\n\nare. I think writing that sounds good is more likely to\n\nbe right.\n\nSo here we have the most exciting kind of idea: one that\n\nseems both preposterous and true. Let's examine it. How\n\ncan this possibly be true?\n\nI know it's true from writing. You can't simultaneously\n\noptimize two unrelated things; when you push one far\n\nenough, you always end up sacrificing the other. And yet\n\nno matter how hard I push, I never find myself having to\n\nchoose between the sentence that sounds best and the one\n\nthat expresses an idea best. If I did, it would be\n\nfrivolous to care how sentences sound. But in practice it",
+          "doc_id": "goodwriting",
+          "chunk_index": 1,
+          "title": "Good Writing",
+          "url": "https://paulgraham.com/goodwriting.html",
+          "distance": 1.1205086708068848
+        },
+        {
+          "chunk_id": "goodwriting_009",
+          "text": "can be bad for the same reason: the author isn't\n\ndeveloping the ideas, merely describing other people's.\n\nIt's only when you're writing to develop ideas that\n\nthere's such a close connection between the two senses of\n\ndoing it well.\n\nOk, many people will be thinking, this seems plausible so\n\nfar, but what about liars? Is it not notoriously possible\n\nfor a smooth-tongued liar to write something beautiful\n\nthat's completely false?\n\nIt is, of course. But not without method acting. The way\n\nto write something beautiful and false is to begin by\n\nmaking yourself almost believe it. So just like someone\n\nwriting something beautiful and true, you're presenting a\n\nperfectly-formed train of thought. The difference is the\n\npoint where it attaches to the world. You're saying\n\nsomething that would be true if certain false premises\n\nwere. If for some bizarre reason the number of jobs in a\n\ncountry were fixed, then immigrants really would be\n\ntaking our jobs.",
+          "doc_id": "goodwriting",
+          "chunk_index": 9,
+          "title": "Good Writing",
+          "url": "https://paulgraham.com/goodwriting.html",
+          "distance": 1.1841356754302979
+        },
+        {
+          "chunk_id": "goodwriting_010",
+          "text": "something that would be true if certain false premises\n\nwere. If for some bizarre reason the number of jobs in a\n\ncountry were fixed, then immigrants really would be\n\ntaking our jobs.\n\nSo it's not quite right to say that better sounding\n\nwriting is more likely to be true. Better sounding\n\nwriting is more likely to be internally consistent. If\n\nthe writer is honest, internal consistency and truth\n\nconverge.\n\nBut while we can't safely conclude that beautiful writing\n\nis true, it's usually safe to conclude the converse:\n\nsomething that seems clumsily written will usually have\n\ngotten the ideas wrong too.\n\nIndeed, the two senses of good writing are more like two\n\nends of the same thing. The connection between them is\n\nnot a rigid one; the goodness of good writing is not a\n\nrod but a rope, with multiple overlapping connections\n\nrunning through it. But it's hard to move one end without\n\nmoving the other. It's hard to be right without sounding\n\nright.\n\nNotes\n\n[\n\n1\n\n]",
+          "doc_id": "goodwriting",
+          "chunk_index": 10,
+          "title": "Good Writing",
+          "url": "https://paulgraham.com/goodwriting.html",
+          "distance": 1.2288570404052734
+        },
+        {
+          "chunk_id": "goodwriting_004",
+          "text": "make any two specific objects fit more closely together.\n\nAnd yet repeated shaking inevitably makes the objects\n\ndiscover brilliantly clever ways of packing themselves.\n\nGravity won't let them become less tightly packed, so any\n\nchange has to be a change for the better.\n\n[\n\n2\n\n]\n\nSo it is with writing. If you have to rewrite an awkward\n\npassage, you'll never do it in a way that makes it\n\nless\n\ntrue. You couldn't bear it, any more than gravity could\n\nbear things floating upward. So any change in the ideas\n\nhas to be a change for the better.\n\nIt's obvious once you think about it. Writing that sounds\n\ngood is more likely to be right for the same reason that\n\na well-shaken bin is more likely to be tightly packed.\n\nBut there's something else going on as well. Sounding\n\ngood isn't just a random external force that leaves the\n\nideas in an essay better off. It actually helps you to\n\nget them right.\n\nThe reason is that it makes the essay easier to read.",
+          "doc_id": "goodwriting",
+          "chunk_index": 4,
+          "title": "Good Writing",
+          "url": "https://paulgraham.com/goodwriting.html",
+          "distance": 1.2350765466690063
+        }
+      ],
+      "ranked_matches": [
+        {
+          "chunk_id": "writes_003",
+          "text": "or steal words, you had to write them yourself. And as a result\n\nnearly everyone who was expected to write had to learn how.\n\nNot anymore. AI has blown this world open. Almost all pressure to\n\nwrite has dissipated. You can have AI do it for you, both in school\n\nand at work.\n\nThe result will be a world divided into writes and write-nots.\n\nThere will still be some people who can write. Some of us like it.\n\nBut the middle ground between those who are good at writing and\n\nthose who can't write at all will disappear. Instead of good writers,\n\nok writers, and people who can't write, there will just be good\n\nwriters and people who can't write.\n\nIs that so bad? Isn't it common for skills to disappear when\n\ntechnology makes them obsolete? There aren't many blacksmiths left,\n\nand it doesn't seem to be a problem.\n\nYes, it's bad. The reason is something I mentioned earlier: writing\n\nis thinking. In fact there's a kind of thinking that can only be",
+          "doc_id": "writes",
+          "chunk_index": 3,
+          "title": "Writes and Write-Nots",
+          "url": "https://paulgraham.com/writes.html",
+          "distance": 0.7701528668403625,
+          "rank_score": 10.0
+        },
+        {
+          "chunk_id": "writes_002",
+          "text": "These two powerful opposing forces, the pervasive expectation of\n\nwriting and the irreducible difficulty of doing it, create enormous\n\npressure. This is why eminent professors often turn out to have\n\nresorted to plagiarism. The most striking thing to me about these\n\ncases is the pettiness of the thefts. The stuff they steal is usually\n\nthe most mundane boilerplate \u2014 the sort of thing that anyone who\n\nwas even halfway decent at writing could turn out with no effort\n\nat all. Which means they're not even halfway decent at writing.\n\nTill recently there was no convenient escape valve for the pressure\n\ncreated by these opposing forces. You could pay someone to write\n\nfor you, like JFK, or plagiarize, like MLK, but if you couldn't buy\n\nor steal words, you had to write them yourself. And as a result\n\nnearly everyone who was expected to write had to learn how.\n\nNot anymore. AI has blown this world open. Almost all pressure to",
+          "doc_id": "writes",
+          "chunk_index": 2,
+          "title": "Writes and Write-Nots",
+          "url": "https://paulgraham.com/writes.html",
+          "distance": 0.9274418354034424,
+          "rank_score": 9.0
+        },
+        {
+          "chunk_id": "writes_001",
+          "text": "October 2024\n\nI'm usually reluctant to make predictions about technology, but I\n\nfeel fairly confident about this one: in a couple decades there\n\nwon't be many people who can write.\n\nOne of the strangest things you learn if you're a writer is how\n\nmany people have trouble writing. Doctors know how many people have\n\na mole they're worried about; people who are good at setting up\n\ncomputers know how many people aren't; writers know how many people\n\nneed help writing.\n\nThe reason so many people have trouble writing is that it's\n\nfundamentally difficult. To write well you have to think clearly,\n\nand thinking clearly is hard.\n\nAnd yet writing pervades many jobs, and the more prestigious the\n\njob, the more writing it tends to require.\n\nThese two powerful opposing forces, the pervasive expectation of\n\nwriting and the irreducible difficulty of doing it, create enormous\n\npressure. This is why eminent professors often turn out to have",
+          "doc_id": "writes",
+          "chunk_index": 1,
+          "title": "Writes and Write-Nots",
+          "url": "https://paulgraham.com/writes.html",
+          "distance": 0.9838635921478271,
+          "rank_score": 8.0
+        },
+        {
+          "chunk_id": "writes_004",
+          "text": "and it doesn't seem to be a problem.\n\nYes, it's bad. The reason is something I mentioned earlier: writing\n\nis thinking. In fact there's a kind of thinking that can only be\n\ndone by writing. You can't make this point better than Leslie Lamport\n\ndid:\n\nIf you're thinking without writing, you only think you're thinking.\n\nSo a world divided into writes and write-nots is more dangerous\n\nthan it sounds. It will be a world of thinks and think-nots. I know\n\nwhich half I want to be in, and I bet you do too.\n\nThis situation is not unprecedented. In preindustrial times most\n\npeople's jobs made them strong. Now if you want to be strong, you\n\nwork out. So there are still strong people, but only those who\n\nchoose to be.\n\nIt will be the same with writing. There will still be smart people,\n\nbut only those who choose to be.\n\nThanks\n\nto Jessica Livingston, Ben Miller,\n\nand Robert Morris for reading drafts of this.",
+          "doc_id": "writes",
+          "chunk_index": 4,
+          "title": "Writes and Write-Nots",
+          "url": "https://paulgraham.com/writes.html",
+          "distance": 1.0051175355911255,
+          "rank_score": 7.0
+        },
+        {
+          "chunk_id": "goodwriting_001",
+          "text": "May 2025\n\nThere are two senses in which writing can be good: it can\n\nsound good, and the ideas can be right. It can have nice,\n\nflowing sentences, and it can draw correct conclusions\n\nabout important things. It might seem as if these two\n\nkinds of good would be unrelated, like the speed of a car\n\nand the color it's painted. And yet I don't think they\n\nare. I think writing that sounds good is more likely to\n\nbe right.\n\nSo here we have the most exciting kind of idea: one that\n\nseems both preposterous and true. Let's examine it. How\n\ncan this possibly be true?\n\nI know it's true from writing. You can't simultaneously\n\noptimize two unrelated things; when you push one far\n\nenough, you always end up sacrificing the other. And yet\n\nno matter how hard I push, I never find myself having to\n\nchoose between the sentence that sounds best and the one\n\nthat expresses an idea best. If I did, it would be\n\nfrivolous to care how sentences sound. But in practice it",
+          "doc_id": "goodwriting",
+          "chunk_index": 1,
+          "title": "Good Writing",
+          "url": "https://paulgraham.com/goodwriting.html",
+          "distance": 1.1205086708068848,
+          "rank_score": 5.0
+        },
+        {
+          "chunk_id": "goodwriting_009",
+          "text": "can be bad for the same reason: the author isn't\n\ndeveloping the ideas, merely describing other people's.\n\nIt's only when you're writing to develop ideas that\n\nthere's such a close connection between the two senses of\n\ndoing it well.\n\nOk, many people will be thinking, this seems plausible so\n\nfar, but what about liars? Is it not notoriously possible\n\nfor a smooth-tongued liar to write something beautiful\n\nthat's completely false?\n\nIt is, of course. But not without method acting. The way\n\nto write something beautiful and false is to begin by\n\nmaking yourself almost believe it. So just like someone\n\nwriting something beautiful and true, you're presenting a\n\nperfectly-formed train of thought. The difference is the\n\npoint where it attaches to the world. You're saying\n\nsomething that would be true if certain false premises\n\nwere. If for some bizarre reason the number of jobs in a\n\ncountry were fixed, then immigrants really would be\n\ntaking our jobs.",
+          "doc_id": "goodwriting",
+          "chunk_index": 9,
+          "title": "Good Writing",
+          "url": "https://paulgraham.com/goodwriting.html",
+          "distance": 1.1841356754302979,
+          "rank_score": 4.0
+        },
+        {
+          "chunk_id": "goodwriting_010",
+          "text": "something that would be true if certain false premises\n\nwere. If for some bizarre reason the number of jobs in a\n\ncountry were fixed, then immigrants really would be\n\ntaking our jobs.\n\nSo it's not quite right to say that better sounding\n\nwriting is more likely to be true. Better sounding\n\nwriting is more likely to be internally consistent. If\n\nthe writer is honest, internal consistency and truth\n\nconverge.\n\nBut while we can't safely conclude that beautiful writing\n\nis true, it's usually safe to conclude the converse:\n\nsomething that seems clumsily written will usually have\n\ngotten the ideas wrong too.\n\nIndeed, the two senses of good writing are more like two\n\nends of the same thing. The connection between them is\n\nnot a rigid one; the goodness of good writing is not a\n\nrod but a rope, with multiple overlapping connections\n\nrunning through it. But it's hard to move one end without\n\nmoving the other. It's hard to be right without sounding\n\nright.\n\nNotes\n\n[\n\n1\n\n]",
+          "doc_id": "goodwriting",
+          "chunk_index": 10,
+          "title": "Good Writing",
+          "url": "https://paulgraham.com/goodwriting.html",
+          "distance": 1.2288570404052734,
+          "rank_score": 3.0
+        },
+        {
+          "chunk_id": "goodwriting_004",
+          "text": "make any two specific objects fit more closely together.\n\nAnd yet repeated shaking inevitably makes the objects\n\ndiscover brilliantly clever ways of packing themselves.\n\nGravity won't let them become less tightly packed, so any\n\nchange has to be a change for the better.\n\n[\n\n2\n\n]\n\nSo it is with writing. If you have to rewrite an awkward\n\npassage, you'll never do it in a way that makes it\n\nless\n\ntrue. You couldn't bear it, any more than gravity could\n\nbear things floating upward. So any change in the ideas\n\nhas to be a change for the better.\n\nIt's obvious once you think about it. Writing that sounds\n\ngood is more likely to be right for the same reason that\n\na well-shaken bin is more likely to be tightly packed.\n\nBut there's something else going on as well. Sounding\n\ngood isn't just a random external force that leaves the\n\nideas in an essay better off. It actually helps you to\n\nget them right.\n\nThe reason is that it makes the essay easier to read.",
+          "doc_id": "goodwriting",
+          "chunk_index": 4,
+          "title": "Good Writing",
+          "url": "https://paulgraham.com/goodwriting.html",
+          "distance": 1.2350765466690063,
+          "rank_score": 2.0
+        }
+      ],
+      "matches": [
+        {
+          "chunk_id": "writes_003",
+          "text": "or steal words, you had to write them yourself. And as a result\n\nnearly everyone who was expected to write had to learn how.\n\nNot anymore. AI has blown this world open. Almost all pressure to\n\nwrite has dissipated. You can have AI do it for you, both in school\n\nand at work.\n\nThe result will be a world divided into writes and write-nots.\n\nThere will still be some people who can write. Some of us like it.\n\nBut the middle ground between those who are good at writing and\n\nthose who can't write at all will disappear. Instead of good writers,\n\nok writers, and people who can't write, there will just be good\n\nwriters and people who can't write.\n\nIs that so bad? Isn't it common for skills to disappear when\n\ntechnology makes them obsolete? There aren't many blacksmiths left,\n\nand it doesn't seem to be a problem.\n\nYes, it's bad. The reason is something I mentioned earlier: writing\n\nis thinking. In fact there's a kind of thinking that can only be",
+          "doc_id": "writes",
+          "chunk_index": 3,
+          "title": "Writes and Write-Nots",
+          "url": "https://paulgraham.com/writes.html",
+          "distance": 0.7701528668403625,
+          "rank_score": 10.0
+        },
+        {
+          "chunk_id": "writes_002",
+          "text": "These two powerful opposing forces, the pervasive expectation of\n\nwriting and the irreducible difficulty of doing it, create enormous\n\npressure. This is why eminent professors often turn out to have\n\nresorted to plagiarism. The most striking thing to me about these\n\ncases is the pettiness of the thefts. The stuff they steal is usually\n\nthe most mundane boilerplate \u2014 the sort of thing that anyone who\n\nwas even halfway decent at writing could turn out with no effort\n\nat all. Which means they're not even halfway decent at writing.\n\nTill recently there was no convenient escape valve for the pressure\n\ncreated by these opposing forces. You could pay someone to write\n\nfor you, like JFK, or plagiarize, like MLK, but if you couldn't buy\n\nor steal words, you had to write them yourself. And as a result\n\nnearly everyone who was expected to write had to learn how.\n\nNot anymore. AI has blown this world open. Almost all pressure to",
+          "doc_id": "writes",
+          "chunk_index": 2,
+          "title": "Writes and Write-Nots",
+          "url": "https://paulgraham.com/writes.html",
+          "distance": 0.9274418354034424,
+          "rank_score": 9.0
+        },
+        {
+          "chunk_id": "writes_001",
+          "text": "October 2024\n\nI'm usually reluctant to make predictions about technology, but I\n\nfeel fairly confident about this one: in a couple decades there\n\nwon't be many people who can write.\n\nOne of the strangest things you learn if you're a writer is how\n\nmany people have trouble writing. Doctors know how many people have\n\na mole they're worried about; people who are good at setting up\n\ncomputers know how many people aren't; writers know how many people\n\nneed help writing.\n\nThe reason so many people have trouble writing is that it's\n\nfundamentally difficult. To write well you have to think clearly,\n\nand thinking clearly is hard.\n\nAnd yet writing pervades many jobs, and the more prestigious the\n\njob, the more writing it tends to require.\n\nThese two powerful opposing forces, the pervasive expectation of\n\nwriting and the irreducible difficulty of doing it, create enormous\n\npressure. This is why eminent professors often turn out to have",
+          "doc_id": "writes",
+          "chunk_index": 1,
+          "title": "Writes and Write-Nots",
+          "url": "https://paulgraham.com/writes.html",
+          "distance": 0.9838635921478271,
+          "rank_score": 8.0
+        },
+        {
+          "chunk_id": "writes_004",
+          "text": "and it doesn't seem to be a problem.\n\nYes, it's bad. The reason is something I mentioned earlier: writing\n\nis thinking. In fact there's a kind of thinking that can only be\n\ndone by writing. You can't make this point better than Leslie Lamport\n\ndid:\n\nIf you're thinking without writing, you only think you're thinking.\n\nSo a world divided into writes and write-nots is more dangerous\n\nthan it sounds. It will be a world of thinks and think-nots. I know\n\nwhich half I want to be in, and I bet you do too.\n\nThis situation is not unprecedented. In preindustrial times most\n\npeople's jobs made them strong. Now if you want to be strong, you\n\nwork out. So there are still strong people, but only those who\n\nchoose to be.\n\nIt will be the same with writing. There will still be smart people,\n\nbut only those who choose to be.\n\nThanks\n\nto Jessica Livingston, Ben Miller,\n\nand Robert Morris for reading drafts of this.",
+          "doc_id": "writes",
+          "chunk_index": 4,
+          "title": "Writes and Write-Nots",
+          "url": "https://paulgraham.com/writes.html",
+          "distance": 1.0051175355911255,
+          "rank_score": 7.0
+        }
+      ],
+      "iteration": 1
+    }
+  },
+  "evaluation_result": {
+    "retrieval": {
+      "expected_slugs": [
+        "writes"
+      ],
+      "retrieved_slugs": [
+        "writes",
+        "writes",
+        "writes",
+        "writes",
+        "goodwriting",
+        "goodwriting",
+        "goodwriting",
+        "goodwriting"
+      ],
+      "relevant_retrieved_slugs": [
+        "writes"
+      ],
+      "relevant_retrieved_count": 1,
+      "expected_count": 1,
+      "recall_at_k": 1.0
+    },
+    "answer_evaluation": {
+      "expected_answer_summary": "He says AI removes the pressure to learn writing, so fewer people will practice the thinking that writing requires.",
+      "alignment_score": 5,
+      "alignment_reason": "The generated answer fully explains why AI will create 'writes and write-nots' by addressing the removal of pressure to write, the link between writing and thinking, and the resulting division, aligning perfectly with and expanding on the expected summary."
+    },
+    "judge": {
+      "retrieval_assessment": "The retrieved sources include the primary expected source 'writes' multiple times, and 'goodwriting' is also a relevant essay by Paul Graham that discusses aspects of writing.",
+      "answer_assessment": "The generated answer aligns very well with and elaborates on the expected answer summary, providing a comprehensive explanation that directly addresses the question.",
+      "overall_note": "Strong result. Retrieval was relevant and the generated answer was highly accurate and complete."
+    }
+  }
+}

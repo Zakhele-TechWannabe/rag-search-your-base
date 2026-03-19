@@ -1,0 +1,255 @@
+{
+  "request_record": {
+    "timestamp": "20260319_211433",
+    "question": "What does Paul Graham say people should do in life?",
+    "duration_ms": 26695.49,
+    "output": {
+      "answer": "Paul Graham says people should help people, take care of the world, and make good new things \u2014 i.e., try to create amazing, useful new things (while ensuring they don't harm people or the world).",
+      "citations": [
+        "(What to Do)[https://paulgraham.com/do.html]"
+      ],
+      "confidence_score": 95
+    },
+    "internal": {
+      "answer": "Paul Graham says people should help people, take care of the world, and make good new things \u2014 i.e., try to create amazing, useful new things (while ensuring they don't harm people or the world).",
+      "reasoning": "The essay explicitly states \u201cOne should help people, and take care of the world,\u201d and identifies the additional principle \u201cMake good new things,\u201d later summarizing the set as \u201ctake care of people and the world, and make good new things,\u201d with advice to avoid harming people or the world and to make things that help when possible.",
+      "confidence_score": 95,
+      "needs_retry": false,
+      "used_chunk_ids": [
+        1,
+        2,
+        3
+      ],
+      "citations": [
+        "(What to Do)[https://paulgraham.com/do.html]"
+      ],
+      "reflection": {
+        "confidence": "high",
+        "needs_retry": false,
+        "reason": "The provided excerpts explicitly state Graham's answer: one should help people, take care of the world, and 'Make good new things' (with the caveat not to net harm and preferably to make things that help). These passages directly support the answer."
+      },
+      "retrieved_matches": [
+        {
+          "chunk_id": "do_001",
+          "text": "March 2025\n\nWhat should one do? That may seem a strange question, but it's not\n\nmeaningless or unanswerable. It's the sort of question kids ask\n\nbefore they learn not to ask big questions. I only came across it\n\nmyself in the process of investigating something else. But once I\n\ndid, I thought I should at least try to answer it.\n\nSo what\n\nshould\n\none do? One should help people, and take care of\n\nthe world. Those two are obvious. But is there anything else? When\n\nI ask that, the answer that pops up is\n\nMake good new things\n\n.\n\nI can't prove that one should do this, any more than I can prove\n\nthat one should help people or take care of the world. We're talking\n\nabout first principles here. But I can explain why this principle\n\nmakes sense. The most impressive thing humans can do is to think.\n\nIt may be the most impressive thing that can be done. And the best\n\nkind of thinking, or more precisely the best proof that one has\n\nthought well, is to make good new things.",
+          "doc_id": "do",
+          "chunk_index": 1,
+          "title": "What to Do",
+          "url": "https://paulgraham.com/do.html",
+          "distance": 1.0528948307037354
+        },
+        {
+          "chunk_id": "do_009",
+          "text": "considered prestigious and you can explain what everyone else is\n\noverlooking about it, then this is not merely a kind of work that's\n\nok to do, but one to seek out.\n\nThe other reason I wouldn't want to define any thresholds is that\n\nwe don't need them. The kind of people who make good new things\n\ndon't need rules to keep them honest.\n\nSo there's my guess at a set of principles to live by: take care\n\nof people and the world, and make good new things. Different people\n\nwill do these to varying degrees. There will presumably be lots who\n\nfocus entirely on taking care of people. There will be a few who\n\nfocus mostly on making new things. But even if you're one of those,\n\nyou should at least make sure that the new things you make don't\n\nnet\n\nharm\n\npeople or the world. And if you go a step further and\n\ntry to make things that help them, you may find you're ahead on the\n\ntrade. You'll be more constrained in what you can make, but you'll\n\nmake it with more energy.",
+          "doc_id": "do",
+          "chunk_index": 9,
+          "title": "What to Do",
+          "url": "https://paulgraham.com/do.html",
+          "distance": 1.0776466131210327
+        },
+        {
+          "chunk_id": "do_010",
+          "text": "try to make things that help them, you may find you're ahead on the\n\ntrade. You'll be more constrained in what you can make, but you'll\n\nmake it with more energy.\n\nOn the other hand, if you make something amazing, you'll often be\n\nhelping people or the world even if you didn't mean to. Newton was\n\ndriven by curiosity and ambition, not by any practical effect his\n\nwork might have, and yet the practical effect of his work has been\n\nenormous. And this seems the rule rather than the exception. So\n\nif you think you can make something amazing, you should probably\n\njust go ahead and do it.\n\nNotes\n\n[\n\n1\n\n]\n\nWe could treat all three as the same kind of should by saying\n\nthat it's one's duty to live well \u2014 for example by saying, as some\n\nChristians have, that it's one's duty to make the most of one's\n\nGod-given gifts. But this seems one of those casuistries people\n\ninvented to evade the stern requirements of religion: it was permissible to",
+          "doc_id": "do",
+          "chunk_index": 10,
+          "title": "What to Do",
+          "url": "https://paulgraham.com/do.html",
+          "distance": 1.0911906957626343
+        },
+        {
+          "chunk_id": "greatwork_008",
+          "text": "it's really like. And as a result an ambitious person on an optimal\n\ntrajectory will often read to the system as an instance of breakage.\n\nIt would be better if they at least admitted it \u2014 if they admitted\n\nthat the system not only can't do much to help you figure out what\n\nto work on, but is designed on the assumption that you'll somehow\n\nmagically guess as a teenager. They don't tell you, but I will:\n\nwhen it comes to figuring out what to work on, you're on your own.\n\nSome people get lucky and do guess correctly, but the rest will\n\nfind themselves scrambling diagonally across tracks laid down on\n\nthe assumption that everyone does.\n\nWhat should you do if you're young and ambitious but don't know\n\nwhat to work on? What you should\n\nnot\n\ndo is drift along passively,\n\nassuming the problem will solve itself. You need to take action.\n\nBut there is no systematic procedure you can follow. When you read\n\nbiographies of people who've done great work, it's remarkable how",
+          "doc_id": "greatwork",
+          "chunk_index": 8,
+          "title": "How to Do Great Work",
+          "url": "https://paulgraham.com/greatwork.html",
+          "distance": 1.0954524278640747
+        },
+        {
+          "chunk_id": "greatwork_012",
+          "text": "against all of them. If you're interested, you're not astray.\n\nFollowing your interests may sound like a rather passive strategy,\n\nbut in practice it usually means following them past all sorts of\n\nobstacles. You usually have to risk rejection and failure. So it\n\ndoes take a good deal of boldness.\n\nBut while you need boldness, you don't usually need much planning.\n\nIn most cases the recipe for doing great work is simply: work hard\n\non excitingly ambitious projects, and something good will come of\n\nit. Instead of making a plan and then executing it, you just try\n\nto preserve certain invariants.\n\nThe trouble with planning is that it only works for achievements\n\nyou can describe in advance. You can win a gold medal or get rich\n\nby deciding to as a child and then tenaciously pursuing that goal,\n\nbut you can't discover natural selection that way.\n\nI think for most people who want to do great work, the right strategy\n\nis not to plan too much. At each stage do whatever seems most",
+          "doc_id": "greatwork",
+          "chunk_index": 12,
+          "title": "How to Do Great Work",
+          "url": "https://paulgraham.com/greatwork.html",
+          "distance": 1.1150705814361572
+        },
+        {
+          "chunk_id": "greatwork_009",
+          "text": "But there is no systematic procedure you can follow. When you read\n\nbiographies of people who've done great work, it's remarkable how\n\nmuch luck is involved. They discover what to work on as a result\n\nof a chance meeting, or by reading a book they happen to pick up.\n\nSo you need to make yourself a big target for luck, and the way to\n\ndo that is to be curious. Try lots of things, meet lots of people,\n\nread lots of books, ask lots of questions.\n\n[\n\n5\n\n]\n\nWhen in doubt, optimize for interestingness. Fields change as you\n\nlearn more about them. What mathematicians do, for example, is very\n\ndifferent from what you do in high school math classes. So you need\n\nto give different types of work a chance to show you what they're\n\nlike. But a field should become\n\nincreasingly\n\ninteresting as you\n\nlearn more about it. If it doesn't, it's probably not for you.\n\nDon't worry if you find you're interested in different things than\n\nother people. The stranger your tastes in interestingness, the",
+          "doc_id": "greatwork",
+          "chunk_index": 9,
+          "title": "How to Do Great Work",
+          "url": "https://paulgraham.com/greatwork.html",
+          "distance": 1.1237231492996216
+        },
+        {
+          "chunk_id": "greatwork_079",
+          "text": "procrastinating for several years.\n\n[\n\n9\n\n]\n\nYou can't usually get paid for doing exactly what you want,\n\nespecially early on. There are two options: get paid for doing work\n\nclose to what you want and hope to push it closer, or get paid for\n\ndoing something else entirely and do your own projects on the side.\n\nBoth can work, but both have drawbacks: in the first approach your\n\nwork is compromised by default, and in the second you have to fight\n\nto get time to do it.\n\n[\n\n10\n\n]\n\nIf you set your life up right, it will deliver the focus-relax\n\ncycle automatically. The perfect setup is an office you work in and\n\nthat you walk to and from.\n\n[\n\n11\n\n]\n\nThere may be some very unworldly people who do great work\n\nwithout consciously trying to. If you want to expand this rule to\n\ncover that case, it becomes: Don't try to be anything except the\n\nbest.\n\n[\n\n12\n\n]\n\nThis gets more complicated in work like acting, where the\n\ngoal is to adopt a fake persona. But even here it's possible to be",
+          "doc_id": "greatwork",
+          "chunk_index": 79,
+          "title": "How to Do Great Work",
+          "url": "https://paulgraham.com/greatwork.html",
+          "distance": 1.1330946683883667
+        },
+        {
+          "chunk_id": "greatwork_005",
+          "text": "about things that everyone else took for granted.\n\n[\n\n2\n\n]\n\nIf the answers seem strange, so much the better. Great work often\n\nhas a tincture of strangeness. You see this from painting to math.\n\nIt would be affected to try to manufacture it, but if it appears,\n\nembrace it.\n\nBoldly chase outlier ideas, even if other people aren't interested\n\nin them \u2014 in fact, especially if they aren't. If you're excited\n\nabout some possibility that everyone else ignores, and you have\n\nenough expertise to say precisely what they're all overlooking,\n\nthat's as good a bet as you'll find.\n\n[\n\n3\n\n]\n\nFour steps: choose a field, learn enough to get to the frontier,\n\nnotice gaps, explore promising ones. This is how practically everyone\n\nwho's done great work has done it, from painters to physicists.\n\nSteps two and four will require hard work. It may not be possible\n\nto prove that you have to work hard to do great things, but the\n\nempirical evidence is on the scale of the evidence for mortality.",
+          "doc_id": "greatwork",
+          "chunk_index": 5,
+          "title": "How to Do Great Work",
+          "url": "https://paulgraham.com/greatwork.html",
+          "distance": 1.1480296850204468
+        }
+      ],
+      "ranked_matches": [
+        {
+          "chunk_id": "do_001",
+          "text": "March 2025\n\nWhat should one do? That may seem a strange question, but it's not\n\nmeaningless or unanswerable. It's the sort of question kids ask\n\nbefore they learn not to ask big questions. I only came across it\n\nmyself in the process of investigating something else. But once I\n\ndid, I thought I should at least try to answer it.\n\nSo what\n\nshould\n\none do? One should help people, and take care of\n\nthe world. Those two are obvious. But is there anything else? When\n\nI ask that, the answer that pops up is\n\nMake good new things\n\n.\n\nI can't prove that one should do this, any more than I can prove\n\nthat one should help people or take care of the world. We're talking\n\nabout first principles here. But I can explain why this principle\n\nmakes sense. The most impressive thing humans can do is to think.\n\nIt may be the most impressive thing that can be done. And the best\n\nkind of thinking, or more precisely the best proof that one has\n\nthought well, is to make good new things.",
+          "doc_id": "do",
+          "chunk_index": 1,
+          "title": "What to Do",
+          "url": "https://paulgraham.com/do.html",
+          "distance": 1.0528948307037354,
+          "rank_score": 10.0
+        },
+        {
+          "chunk_id": "do_009",
+          "text": "considered prestigious and you can explain what everyone else is\n\noverlooking about it, then this is not merely a kind of work that's\n\nok to do, but one to seek out.\n\nThe other reason I wouldn't want to define any thresholds is that\n\nwe don't need them. The kind of people who make good new things\n\ndon't need rules to keep them honest.\n\nSo there's my guess at a set of principles to live by: take care\n\nof people and the world, and make good new things. Different people\n\nwill do these to varying degrees. There will presumably be lots who\n\nfocus entirely on taking care of people. There will be a few who\n\nfocus mostly on making new things. But even if you're one of those,\n\nyou should at least make sure that the new things you make don't\n\nnet\n\nharm\n\npeople or the world. And if you go a step further and\n\ntry to make things that help them, you may find you're ahead on the\n\ntrade. You'll be more constrained in what you can make, but you'll\n\nmake it with more energy.",
+          "doc_id": "do",
+          "chunk_index": 9,
+          "title": "What to Do",
+          "url": "https://paulgraham.com/do.html",
+          "distance": 1.0776466131210327,
+          "rank_score": 9.0
+        },
+        {
+          "chunk_id": "do_010",
+          "text": "try to make things that help them, you may find you're ahead on the\n\ntrade. You'll be more constrained in what you can make, but you'll\n\nmake it with more energy.\n\nOn the other hand, if you make something amazing, you'll often be\n\nhelping people or the world even if you didn't mean to. Newton was\n\ndriven by curiosity and ambition, not by any practical effect his\n\nwork might have, and yet the practical effect of his work has been\n\nenormous. And this seems the rule rather than the exception. So\n\nif you think you can make something amazing, you should probably\n\njust go ahead and do it.\n\nNotes\n\n[\n\n1\n\n]\n\nWe could treat all three as the same kind of should by saying\n\nthat it's one's duty to live well \u2014 for example by saying, as some\n\nChristians have, that it's one's duty to make the most of one's\n\nGod-given gifts. But this seems one of those casuistries people\n\ninvented to evade the stern requirements of religion: it was permissible to",
+          "doc_id": "do",
+          "chunk_index": 10,
+          "title": "What to Do",
+          "url": "https://paulgraham.com/do.html",
+          "distance": 1.0911906957626343,
+          "rank_score": 8.0
+        },
+        {
+          "chunk_id": "greatwork_012",
+          "text": "against all of them. If you're interested, you're not astray.\n\nFollowing your interests may sound like a rather passive strategy,\n\nbut in practice it usually means following them past all sorts of\n\nobstacles. You usually have to risk rejection and failure. So it\n\ndoes take a good deal of boldness.\n\nBut while you need boldness, you don't usually need much planning.\n\nIn most cases the recipe for doing great work is simply: work hard\n\non excitingly ambitious projects, and something good will come of\n\nit. Instead of making a plan and then executing it, you just try\n\nto preserve certain invariants.\n\nThe trouble with planning is that it only works for achievements\n\nyou can describe in advance. You can win a gold medal or get rich\n\nby deciding to as a child and then tenaciously pursuing that goal,\n\nbut you can't discover natural selection that way.\n\nI think for most people who want to do great work, the right strategy\n\nis not to plan too much. At each stage do whatever seems most",
+          "doc_id": "greatwork",
+          "chunk_index": 12,
+          "title": "How to Do Great Work",
+          "url": "https://paulgraham.com/greatwork.html",
+          "distance": 1.1150705814361572,
+          "rank_score": 6.0
+        },
+        {
+          "chunk_id": "greatwork_009",
+          "text": "But there is no systematic procedure you can follow. When you read\n\nbiographies of people who've done great work, it's remarkable how\n\nmuch luck is involved. They discover what to work on as a result\n\nof a chance meeting, or by reading a book they happen to pick up.\n\nSo you need to make yourself a big target for luck, and the way to\n\ndo that is to be curious. Try lots of things, meet lots of people,\n\nread lots of books, ask lots of questions.\n\n[\n\n5\n\n]\n\nWhen in doubt, optimize for interestingness. Fields change as you\n\nlearn more about them. What mathematicians do, for example, is very\n\ndifferent from what you do in high school math classes. So you need\n\nto give different types of work a chance to show you what they're\n\nlike. But a field should become\n\nincreasingly\n\ninteresting as you\n\nlearn more about it. If it doesn't, it's probably not for you.\n\nDon't worry if you find you're interested in different things than\n\nother people. The stranger your tastes in interestingness, the",
+          "doc_id": "greatwork",
+          "chunk_index": 9,
+          "title": "How to Do Great Work",
+          "url": "https://paulgraham.com/greatwork.html",
+          "distance": 1.1237231492996216,
+          "rank_score": 5.0
+        },
+        {
+          "chunk_id": "greatwork_005",
+          "text": "about things that everyone else took for granted.\n\n[\n\n2\n\n]\n\nIf the answers seem strange, so much the better. Great work often\n\nhas a tincture of strangeness. You see this from painting to math.\n\nIt would be affected to try to manufacture it, but if it appears,\n\nembrace it.\n\nBoldly chase outlier ideas, even if other people aren't interested\n\nin them \u2014 in fact, especially if they aren't. If you're excited\n\nabout some possibility that everyone else ignores, and you have\n\nenough expertise to say precisely what they're all overlooking,\n\nthat's as good a bet as you'll find.\n\n[\n\n3\n\n]\n\nFour steps: choose a field, learn enough to get to the frontier,\n\nnotice gaps, explore promising ones. This is how practically everyone\n\nwho's done great work has done it, from painters to physicists.\n\nSteps two and four will require hard work. It may not be possible\n\nto prove that you have to work hard to do great things, but the\n\nempirical evidence is on the scale of the evidence for mortality.",
+          "doc_id": "greatwork",
+          "chunk_index": 5,
+          "title": "How to Do Great Work",
+          "url": "https://paulgraham.com/greatwork.html",
+          "distance": 1.1480296850204468,
+          "rank_score": 4.0
+        },
+        {
+          "chunk_id": "greatwork_008",
+          "text": "it's really like. And as a result an ambitious person on an optimal\n\ntrajectory will often read to the system as an instance of breakage.\n\nIt would be better if they at least admitted it \u2014 if they admitted\n\nthat the system not only can't do much to help you figure out what\n\nto work on, but is designed on the assumption that you'll somehow\n\nmagically guess as a teenager. They don't tell you, but I will:\n\nwhen it comes to figuring out what to work on, you're on your own.\n\nSome people get lucky and do guess correctly, but the rest will\n\nfind themselves scrambling diagonally across tracks laid down on\n\nthe assumption that everyone does.\n\nWhat should you do if you're young and ambitious but don't know\n\nwhat to work on? What you should\n\nnot\n\ndo is drift along passively,\n\nassuming the problem will solve itself. You need to take action.\n\nBut there is no systematic procedure you can follow. When you read\n\nbiographies of people who've done great work, it's remarkable how",
+          "doc_id": "greatwork",
+          "chunk_index": 8,
+          "title": "How to Do Great Work",
+          "url": "https://paulgraham.com/greatwork.html",
+          "distance": 1.0954524278640747,
+          "rank_score": 3.0
+        },
+        {
+          "chunk_id": "greatwork_079",
+          "text": "procrastinating for several years.\n\n[\n\n9\n\n]\n\nYou can't usually get paid for doing exactly what you want,\n\nespecially early on. There are two options: get paid for doing work\n\nclose to what you want and hope to push it closer, or get paid for\n\ndoing something else entirely and do your own projects on the side.\n\nBoth can work, but both have drawbacks: in the first approach your\n\nwork is compromised by default, and in the second you have to fight\n\nto get time to do it.\n\n[\n\n10\n\n]\n\nIf you set your life up right, it will deliver the focus-relax\n\ncycle automatically. The perfect setup is an office you work in and\n\nthat you walk to and from.\n\n[\n\n11\n\n]\n\nThere may be some very unworldly people who do great work\n\nwithout consciously trying to. If you want to expand this rule to\n\ncover that case, it becomes: Don't try to be anything except the\n\nbest.\n\n[\n\n12\n\n]\n\nThis gets more complicated in work like acting, where the\n\ngoal is to adopt a fake persona. But even here it's possible to be",
+          "doc_id": "greatwork",
+          "chunk_index": 79,
+          "title": "How to Do Great Work",
+          "url": "https://paulgraham.com/greatwork.html",
+          "distance": 1.1330946683883667,
+          "rank_score": 2.0
+        }
+      ],
+      "matches": [
+        {
+          "chunk_id": "do_001",
+          "text": "March 2025\n\nWhat should one do? That may seem a strange question, but it's not\n\nmeaningless or unanswerable. It's the sort of question kids ask\n\nbefore they learn not to ask big questions. I only came across it\n\nmyself in the process of investigating something else. But once I\n\ndid, I thought I should at least try to answer it.\n\nSo what\n\nshould\n\none do? One should help people, and take care of\n\nthe world. Those two are obvious. But is there anything else? When\n\nI ask that, the answer that pops up is\n\nMake good new things\n\n.\n\nI can't prove that one should do this, any more than I can prove\n\nthat one should help people or take care of the world. We're talking\n\nabout first principles here. But I can explain why this principle\n\nmakes sense. The most impressive thing humans can do is to think.\n\nIt may be the most impressive thing that can be done. And the best\n\nkind of thinking, or more precisely the best proof that one has\n\nthought well, is to make good new things.",
+          "doc_id": "do",
+          "chunk_index": 1,
+          "title": "What to Do",
+          "url": "https://paulgraham.com/do.html",
+          "distance": 1.0528948307037354,
+          "rank_score": 10.0
+        },
+        {
+          "chunk_id": "do_009",
+          "text": "considered prestigious and you can explain what everyone else is\n\noverlooking about it, then this is not merely a kind of work that's\n\nok to do, but one to seek out.\n\nThe other reason I wouldn't want to define any thresholds is that\n\nwe don't need them. The kind of people who make good new things\n\ndon't need rules to keep them honest.\n\nSo there's my guess at a set of principles to live by: take care\n\nof people and the world, and make good new things. Different people\n\nwill do these to varying degrees. There will presumably be lots who\n\nfocus entirely on taking care of people. There will be a few who\n\nfocus mostly on making new things. But even if you're one of those,\n\nyou should at least make sure that the new things you make don't\n\nnet\n\nharm\n\npeople or the world. And if you go a step further and\n\ntry to make things that help them, you may find you're ahead on the\n\ntrade. You'll be more constrained in what you can make, but you'll\n\nmake it with more energy.",
+          "doc_id": "do",
+          "chunk_index": 9,
+          "title": "What to Do",
+          "url": "https://paulgraham.com/do.html",
+          "distance": 1.0776466131210327,
+          "rank_score": 9.0
+        },
+        {
+          "chunk_id": "do_010",
+          "text": "try to make things that help them, you may find you're ahead on the\n\ntrade. You'll be more constrained in what you can make, but you'll\n\nmake it with more energy.\n\nOn the other hand, if you make something amazing, you'll often be\n\nhelping people or the world even if you didn't mean to. Newton was\n\ndriven by curiosity and ambition, not by any practical effect his\n\nwork might have, and yet the practical effect of his work has been\n\nenormous. And this seems the rule rather than the exception. So\n\nif you think you can make something amazing, you should probably\n\njust go ahead and do it.\n\nNotes\n\n[\n\n1\n\n]\n\nWe could treat all three as the same kind of should by saying\n\nthat it's one's duty to live well \u2014 for example by saying, as some\n\nChristians have, that it's one's duty to make the most of one's\n\nGod-given gifts. But this seems one of those casuistries people\n\ninvented to evade the stern requirements of religion: it was permissible to",
+          "doc_id": "do",
+          "chunk_index": 10,
+          "title": "What to Do",
+          "url": "https://paulgraham.com/do.html",
+          "distance": 1.0911906957626343,
+          "rank_score": 8.0
+        }
+      ],
+      "iteration": 1
+    }
+  },
+  "evaluation_result": {
+    "retrieval": {
+      "expected_slugs": [
+        "do"
+      ],
+      "retrieved_slugs": [
+        "do",
+        "do",
+        "do",
+        "greatwork",
+        "greatwork",
+        "greatwork",
+        "greatwork",
+        "greatwork"
+      ],
+      "relevant_retrieved_slugs": [
+        "do"
+      ],
+      "relevant_retrieved_count": 1,
+      "expected_count": 1,
+      "recall_at_k": 1.0
+    },
+    "answer_evaluation": {
+      "expected_answer_summary": "He says people should help others, take care of the world, and make good new things.",
+      "alignment_score": 5,
+      "alignment_reason": "The generated answer fully covers all points in the expected answer summary and elaborates further in a consistent and relevant way."
+    },
+    "judge": {
+      "retrieval_assessment": "The expected source 'do' was retrieved multiple times. Additional 'greatwork' sources were also retrieved, which could be relevant given the 'make good new things' part of the answer.",
+      "answer_assessment": "The generated answer closely aligns with and expands appropriately on the expected answer summary.",
+      "overall_note": "Strong result: High answer alignment with appropriate source retrieval."
+    }
+  }
+}
