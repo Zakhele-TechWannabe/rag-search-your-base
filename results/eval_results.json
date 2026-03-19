@@ -1,0 +1,190 @@
+{
+  "metric": "recall@3",
+  "total_questions": 6,
+  "total_relevant_documents": 6,
+  "total_relevant_retrieved": 6,
+  "recall_at_k": 1.0,
+  "results": [
+    {
+      "question": "What does Paul Graham say great work depends on besides effort and luck?",
+      "generated_answer": "Ability and interest.",
+      "retrieval": {
+        "expected_slugs": [
+          "greatwork"
+        ],
+        "retrieved_slugs": [
+          "greatwork",
+          "greatwork",
+          "greatwork"
+        ],
+        "relevant_retrieved_slugs": [
+          "greatwork"
+        ],
+        "relevant_retrieved_count": 1,
+        "expected_count": 1,
+        "recall_at_k": 1.0
+      },
+      "answer_evaluation": {
+        "expected_answer_summary": "He says the key remaining factors are ability and interest, and that great work comes from finding work where they combine well.",
+        "alignment_score": 5,
+        "alignment_reason": "The generated answer precisely identifies the key factors (ability and interest) mentioned in the expected answer summary."
+      },
+      "judge": {
+        "retrieval_assessment": "The expected source 'greatwork' was successfully retrieved multiple times, indicating excellent retrieval.",
+        "answer_assessment": "The generated answer is concise, accurate, and perfectly aligns with the core information in the expected answer summary.",
+        "overall_note": "This is a strong result. Retrieval was exact, and the generated answer is a perfect and concise summary of the expected answer."
+      }
+    },
+    {
+      "question": "Why does Paul Graham think writing that sounds good is more likely to be right?",
+      "generated_answer": "Because \u2018\u2018sounding good\u2019\u2019 both helps the writer spot and fix errors and correlates with correct thinking. Writing that flows is easier to read (the writer is the first reader and rereads passages many times), so awkwardness that signals a mistake becomes easier to notice and correct; rewriting to improve sound tends only to tighten or improve the ideas. Also, good-sounding writing has a rhythm that fits the ideas, so getting the rhythm right is a useful heuristic that the ideas themselves are right.",
+      "retrieval": {
+        "expected_slugs": [
+          "goodwriting"
+        ],
+        "retrieved_slugs": [
+          "goodwriting",
+          "goodwriting",
+          "goodwriting"
+        ],
+        "relevant_retrieved_slugs": [
+          "goodwriting"
+        ],
+        "relevant_retrieved_count": 1,
+        "expected_count": 1,
+        "recall_at_k": 1.0
+      },
+      "answer_evaluation": {
+        "expected_answer_summary": "He argues that improving sentence quality helps refine thinking, so sound and correctness in writing reinforce each other.",
+        "alignment_score": 5,
+        "alignment_reason": "The generated answer fully explains why sounding good correlates with being right, providing a detailed breakdown that aligns perfectly with and elaborates on the core idea of the expected summary."
+      },
+      "judge": {
+        "retrieval_assessment": "The retrieved sources are ideal, consisting solely of the expected 'goodwriting' essay.",
+        "answer_assessment": "The generated answer is highly consistent with the expected answer summary, explaining how improving writing quality (sounding good) refines thinking and reveals errors.",
+        "overall_note": "This is a strong result. Retrieval was perfect, and the generated answer is accurate, detailed, and completely aligned with the expected summary's core message."
+      }
+    },
+    {
+      "question": "What does Paul Graham say people should do in life?",
+      "generated_answer": "Paul Graham says people should help people, take care of the world, and make good new things.",
+      "retrieval": {
+        "expected_slugs": [
+          "do"
+        ],
+        "retrieved_slugs": [
+          "do",
+          "do",
+          "do"
+        ],
+        "relevant_retrieved_slugs": [
+          "do"
+        ],
+        "relevant_retrieved_count": 1,
+        "expected_count": 1,
+        "recall_at_k": 1.0
+      },
+      "answer_evaluation": {
+        "expected_answer_summary": "He says people should help others, take care of the world, and make good new things.",
+        "alignment_score": 5,
+        "alignment_reason": "The generated answer almost perfectly matches the expected answer summary, conveying the exact same key points."
+      },
+      "judge": {
+        "retrieval_assessment": "The retrieved sources fully match the expected source ('do'), indicating excellent retrieval for the primary source.",
+        "answer_assessment": "The generated answer 'Paul Graham says people should help people, take care of the world, and make good new things.' aligns very well with the expected summary 'He says people should help others, take care of the world, and make good new things.'",
+        "overall_note": "This is a strong result. Both retrieval and answer generation are excellent, indicating the RAG system performed optimally for this query."
+      }
+    },
+    {
+      "question": "Why does Paul Graham say AI will create writes and write-nots?",
+      "generated_answer": "Paul Graham argues that AI will do most people\u2019s writing for them\u2014removing the pressure that formerly forced almost everyone who needed to write to learn how\u2014so fewer people will develop writing skills. Because \u201cwriting is thinking,\u201d losing the habit of writing means losing a kind of thinking, so society will split into those who keep choosing to write (writes) and those who don\u2019t (write-nots).",
+      "retrieval": {
+        "expected_slugs": [
+          "writes"
+        ],
+        "retrieved_slugs": [
+          "writes",
+          "writes",
+          "writes"
+        ],
+        "relevant_retrieved_slugs": [
+          "writes"
+        ],
+        "relevant_retrieved_count": 1,
+        "expected_count": 1,
+        "recall_at_k": 1.0
+      },
+      "answer_evaluation": {
+        "expected_answer_summary": "He says AI removes the pressure to learn writing, so fewer people will practice the thinking that writing requires.",
+        "alignment_score": 5,
+        "alignment_reason": "The generated answer fully explains the core reasoning provided in the expected summary, including the connection between writing and thinking and the resulting societal split."
+      },
+      "judge": {
+        "retrieval_assessment": "The system correctly retrieved the 'writes' essay, which is the sole expected source for this question, multiple times.",
+        "answer_assessment": "The generated answer is highly aligned with the expected summary, providing a comprehensive and accurate explanation that elaborates on all key points.",
+        "overall_note": "Strong performance: excellent retrieval and a highly accurate, comprehensive answer that thoroughly addresses the question."
+      }
+    },
+    {
+      "question": "What made Paul Graham change his mind about having kids?",
+      "generated_answer": "He actually had children. The birth of his first child produced immediate \u201cchemical changes\u201d that made him protective and affectionate, and having kids revealed pleasures he hadn\u2019t expected (they become friends, are interesting to play with) while showing his prior impressions suffered from selection bias.",
+      "retrieval": {
+        "expected_slugs": [
+          "kids"
+        ],
+        "retrieved_slugs": [
+          "kids",
+          "kids",
+          "kids"
+        ],
+        "relevant_retrieved_slugs": [
+          "kids"
+        ],
+        "relevant_retrieved_count": 1,
+        "expected_count": 1,
+        "recall_at_k": 1.0
+      },
+      "answer_evaluation": {
+        "expected_answer_summary": "He says having kids brought unexpected happiness and made him realize the standard objections were weaker than he had assumed.",
+        "alignment_score": 5,
+        "alignment_reason": "The generated answer fully captures the core idea of unexpected happiness and a change in perspective, while also providing specific, relevant details (chemical changes, selection bias) that elaborate on the expected summary without contradicting it."
+      },
+      "judge": {
+        "retrieval_assessment": "The retrieved sources perfectly match the expected source essay slug, indicating excellent retrieval.",
+        "answer_assessment": "The generated answer aligns very well with the expected answer summary, providing a more detailed and nuanced explanation that is consistent with the summary's core message.",
+        "overall_note": "This is a strong result. The system successfully retrieved the correct source and generated an accurate, comprehensive answer that aligns perfectly with and elaborates on the expected summary."
+      }
+    },
+    {
+      "question": "According to Paul Graham, how do people usually lose time and money?",
+      "generated_answer": "Graham says people usually lose money through bad investments (not by obvious overspending) and lose time by doing \"fake work\"\u2014activities that feel productive but waste time, which bypass the alarms that stop obvious self-indulgence.",
+      "retrieval": {
+        "expected_slugs": [
+          "selfindulgence"
+        ],
+        "retrieved_slugs": [
+          "selfindulgence",
+          "selfindulgence",
+          "selfindulgence"
+        ],
+        "relevant_retrieved_slugs": [
+          "selfindulgence"
+        ],
+        "relevant_retrieved_count": 1,
+        "expected_count": 1,
+        "recall_at_k": 1.0
+      },
+      "answer_evaluation": {
+        "expected_answer_summary": "He argues that people lose time and money through vanity, status seeking, and showing off rather than straightforward pleasures.",
+        "alignment_score": 2,
+        "alignment_reason": "The generated answer focuses on 'bad investments' and 'fake work' as reasons for losing time and money, which differs significantly from the expected summary's focus on 'vanity, status seeking, and showing off'."
+      },
+      "judge": {
+        "retrieval_assessment": "The retrieved sources perfectly match the expected source, indicating excellent retrieval.",
+        "answer_assessment": "The generated answer does not align with the expected answer summary, providing different reasons for losing time and money.",
+        "overall_note": "The retrieval component is strong, but the answer generation is weak, as it extracts different information from what was expected, despite having the correct source."
+      }
+    }
+  ],
+  "markdown_table": "| Question | Expected Source | Retrieved Top 3 Sources | Recall@3 |\n| --- | --- | --- | --- |\n| What does Paul Graham say great work depends on besides effort and luck? | greatwork | greatwork, greatwork, greatwork | 1.0 |\n| Why does Paul Graham think writing that sounds good is more likely to be right? | goodwriting | goodwriting, goodwriting, goodwriting | 1.0 |\n| What does Paul Graham say people should do in life? | do | do, do, do | 1.0 |\n| Why does Paul Graham say AI will create writes and write-nots? | writes | writes, writes, writes | 1.0 |\n| What made Paul Graham change his mind about having kids? | kids | kids, kids, kids | 1.0 |\n| According to Paul Graham, how do people usually lose time and money? | selfindulgence | selfindulgence, selfindulgence, selfindulgence | 1.0 |"
+}
